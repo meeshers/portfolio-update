@@ -62,7 +62,9 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/web-page/index.html">Web portfolio</a>
+              <a class="nav-link" href="pages/web-page/index.html"
+                >Web portfolio</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/design-page/index.html"
@@ -78,15 +80,76 @@
     <header>
       <div class="hero-area">
         <h1>Hello, I'm Michelle.</h1>
-        <h3 class="about">
+        <h3 class="description">
           I'm an aspiring web developer with an interest in art, design, and
           keyboards.
         </h3>
       </div>
     </header>
 
-    <div class="contaner">
-      <h2>About Me</h2>
+    <div class="blue-container"></div>
+    <div class="about container">
+      <h2 class="about-title">
+        About <br />
+        <span>Me</span>
+      </h2>
+      <hr />
+      <p class="about-description">
+        After working at an arcade for 5 years, I decided to start a career in
+        web development. I am highly adaptable and believe that practice makes
+        perfect in order to be a quick learner. I strive to create aesthetically
+        pleasing designs in my art and applications while thinking of the user
+        experience to easily navigate through each page to find what they need.
+        When I'm not coding or designing, I enjoy playing video games,planning
+        my next art project, and planning my next custom keyboard build.
+      </p>
+      <div class="skills">
+        <div class="core-skills">
+          <h4>Here are some of my core skills</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>JavaScript</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+        <div class="learn">
+          <h4>Here are skills I would love to expand on</h4>
+          <ul>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Django</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button navigations to portfolios -->
+    <div class="portfolio-redirect">
+      <h2>Check out some of my work</h2>
+      <!-- Mobile only -->
+      <div class="mobile-buttons">
+        <a
+          class="btn btn-primary"
+          href="pages/web-page/index.html"
+          role="button"
+          >Web Portfolio</a
+        >
+        <a
+          class="btn btn-primary"
+          href="pages/design-page/index.html"
+          role="button"
+          >Design Portfolio</a
+        >
+      </div>
+      <!-- tablet and above -->
+      <div class="thumbnails">
+        <a href="pages/web-page/index.html"><div class="web">Web Portfolio</div></a>
+        <a href="pages/design-page/index.html"><div class="design">Design Portfolio</div></a>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -94,10 +157,6 @@
       <h2>Like what you see?</h2>
       <h3>Let's connect!</h3>
       <div class="footer-content">
-        <div class="contact">
-          <p>Contact information:</p>
-          <i class="fas fa-envelope"></i> mtran1205[@]gmail.com
-        </div>
         <div class="social">
           <a href="https://www.linkedin.com/in/mich-tran/" target="_BLANK"
             ><i class="fab fa-linkedin"></i
@@ -105,6 +164,9 @@
           <a href="https://github.com/meeshers" target="_BLANK"
             ><i class="fab fa-github-square"></i
           ></a>
+        </div>
+        <div class="contact">
+          <i class="fas fa-envelope"></i> mtran1205[@]gmail.com
         </div>
       </div>
       <p>Copyright 2021 | Michelle Tran</p>
