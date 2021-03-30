@@ -1,0 +1,55 @@
+/* DEFAULT HEADER STYLES */
+header {
+  background: url("../../img/design-image.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: 300px;
+}
+
+header .design-header h1 {
+  font-size: 2.5em;
+  position: absolute;
+  top: 20%;
+  padding-left: 10px;
+}
+
+header .design-header h3 {
+  font-size: 1.5em;
+  position: absolute;
+  top: 30%;
+  padding: 10px;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+  /* HEADER STYLES */
+  header {
+    background: url("../../img/design-image.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 400px;
+  }
+
+  header .design-header h1 {
+    font-size: 4em;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  
+  header .design-header h3 {
+    font-size: 2em;
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    width: 65%;
+  }
+
+}
