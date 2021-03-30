@@ -90,10 +90,13 @@ body {
   font-size: 18px;
   text-align: center;
   background-color: #ECE8FE;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #11164A;
+  font-family: 'Song Myung', serif;
+  font-weight: bold;
 }
 
 /* HEADER STYLES MAIN */
@@ -117,6 +120,8 @@ header .hero-area h3 {
   position: absolute;
   bottom: 25%;
   padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #284f58;
 }
 
 /* NAV BAR STYLES */
@@ -149,13 +154,17 @@ header .hero-area h3 {
 
 .about hr {
   width: 100%;
-  background-color: #223c4e;
-  border: 6px solid #223c4e;
+  background-color: #11164A;
+  border: 6px solid #11164A;
   border-radius: 4px;;
 }
 
 .skills ul li {
   list-style-type: none;
+}
+
+.skills h4 {
+  border-bottom: 2px solid #11164A;
 }
 
 /* PORTFOLIO REDIRECT */
