@@ -8,17 +8,20 @@ header {
 }
 
 header .design-header h1 {
+  color: #f1f1f1;
   font-size: 2.5em;
   position: absolute;
-  top: 20%;
+  top: 23%;
   padding-left: 10px;
+  text-shadow: 1px 1px 3px #1f1f1f;
 }
 
 header .design-header h3 {
   font-size: 1.5em;
   position: absolute;
-  top: 30%;
+  top: 33%;
   padding: 10px;
+  text-align: center;
 }
 
 /* ----------- Tablets larger than 768px wide ----------- */

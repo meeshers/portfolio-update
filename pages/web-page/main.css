@@ -8,17 +8,26 @@ header {
 }
 
 header .web-header h1 {
+  color: #284f58;
   font-size: 2.5em;
   position: absolute;
-  top: 20%;
+  top: 23%;
   padding-left: 10px;
+  text-shadow: 1px 1px 3px #ffffff;
 }
 
 header .web-header h3 {
   font-size: 1.5em;
   position: absolute;
-  top: 30%;
+  top: 33%;
   padding: 10px;
+  text-shadow: 1px 1px 3px #ffffff;
+  text-align: center;
+}
+
+#web-portfolio {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* ----------- Tablets larger than 768px wide ----------- */
