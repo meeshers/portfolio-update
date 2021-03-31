@@ -189,59 +189,6 @@ header .hero-area h3 {
   color: #11164A;
 }
 
-/* PORTFOLIO ITEM STYLES */
-.portfolio-item {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
-
-.portfolio-item h4 {
-  font-size: 1.5em;
-  border-bottom: 3px solid #11164A;
-  text-align: left;
-}
-
-.portfolio-item-description {
-  padding: 10px;
-  text-align: left;
-}
-
-.carousel-inner > .carousel-item {
-  background-color:#f1f1f1;
-  height: 300px;
-}
-
-.carousel-inner > .carousel-item > img {
-  position: absolute;
-  top: 15%;
-  max-height: 300px;
-  width: auto;
-}
-
-.portfolio-item-info ul li{
-  text-align: left;
-}
-
-.modal-body img {
-  width: 100%;
-  height: auto;
-}
-
-.buttons a.btn.btn-primary {
-  background-color: #11164A;
-  border-style: none;
-}
-
-button.btn.btn-primary {
-  background-color: #11164A;
-  border-style: none;
-}
-
-.bg-primary {
-  background-color: #11164A!important;
-}
-
 /* FOOTER STYLES */
 footer {
   background-color:#6c96b4;
@@ -310,8 +257,6 @@ footer i {
     margin-left: 95%;
   } 
 
-  
-
   .about hr {
     display: none;
   }
@@ -364,34 +309,6 @@ footer i {
     height: 200px;
     width: 300px;
     border-radius: 3%;
-  }
-
-   /* PORTFOLIO ITEMS */
-   .portfolio-item-content {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .portfolio-item-content .portfolio-item-images,
-  .portfolio-item-info {
-    width: 50%;
-    padding: 10px;
-  }
-
-  .carousel-inner > .carousel-item {
-    background-color:#f1f1f1;
-    height: 300px;
-  }
-  
-  .carousel-inner > .carousel-item > img {
-    position: absolute;
-    max-height: 300px;
-    width: auto;
-  }
-
-  .modal-content {
-    width: 500px;
-    height: auto;
   }
 }
 
@@ -457,35 +374,6 @@ footer i {
   .thumbnails .design {
     height: 400px;
     width: 500px;
-  }
-
-  /* PORTFOLIO ITEMS */
-  .portfolio-item-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .portfolio-item-content .portfolio-item-images,
-  .portfolio-item-info {
-    width: 50%;
-    padding: 15px;
-  }
-
-  .carousel-inner > .carousel-item {
-    background-color:#f1f1f1;
-    height: 500px;
-  }
-  
-  .carousel-inner > .carousel-item > img {
-    position: absolute;
-    max-height: 500px;
-    width: auto;
-  }
-
-  .modal-content {
-    width: 800px;
-    height: auto;
   }
 
   /* FOOTER STYLES */

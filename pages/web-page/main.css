@@ -30,6 +30,59 @@ header .web-header h3 {
   padding-bottom: 15px;
 }
 
+/* PORTFOLIO ITEM STYLES */
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.portfolio-item h4 {
+  font-size: 1.5em;
+  border-bottom: 3px solid #11164A;
+  text-align: left;
+}
+
+.portfolio-item-description {
+  padding: 10px;
+  text-align: left;
+}
+
+.carousel-inner > .carousel-item {
+  background-color:#f1f1f1;
+  height: 300px;
+}
+
+.carousel-inner > .carousel-item > img {
+  position: absolute;
+  top: 15%;
+  max-height: 300px;
+  width: auto;
+}
+
+.portfolio-item-info ul li{
+  text-align: left;
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+}
+
+.buttons a.btn.btn-primary {
+  background-color: #11164A;
+  border-style: none;
+}
+
+button.btn.btn-primary {
+  background-color: #11164A;
+  border-style: none;
+}
+
+.bg-primary {
+  background-color: #11164A!important;
+}
+
 /* ----------- Tablets larger than 768px wide ----------- */
 @media (min-width: 768px) {
   header {
@@ -49,6 +102,34 @@ header .web-header h3 {
     top: 25%;
     right: 3%;
     width: 65%;
+  }
+
+  /* PORTFOLIO ITEMS */
+  .portfolio-item-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .portfolio-item-content .portfolio-item-images,
+  .portfolio-item-info {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .carousel-inner > .carousel-item {
+    background-color:#f1f1f1;
+    height: 300px;
+  }
+  
+  .carousel-inner > .carousel-item > img {
+    position: absolute;
+    max-height: 300px;
+    width: auto;
+  }
+
+  .modal-content {
+    width: 500px;
+    height: auto;
   }
 }
 
@@ -74,4 +155,32 @@ header .web-header h3 {
     width: 65%;
   }
 
+  /* PORTFOLIO ITEMS */
+  .portfolio-item-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .portfolio-item-content .portfolio-item-images,
+  .portfolio-item-info {
+    width: 50%;
+    padding: 15px;
+  }
+
+  .carousel-inner > .carousel-item {
+    background-color:#f1f1f1;
+    height: 500px;
+  }
+  
+  .carousel-inner > .carousel-item > img {
+    position: absolute;
+    max-height: 500px;
+    width: auto;
+  }
+
+  .modal-content {
+    width: 800px;
+    height: auto;
+  }
 }
