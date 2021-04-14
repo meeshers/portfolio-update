@@ -24,6 +24,43 @@ header .design-header h3 {
   text-align: center;
 }
 
+/* PORTFOLIO STYLES */
+#design-portfolio {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.portfolio-item h4 {
+  font-size: 1.5em;
+  border-bottom: 3px solid #11164A;
+  text-align: left;
+}
+
+.portfolio-item-description {
+  padding: 10px;
+  text-align: left;
+}
+
+.portfolio-item-info a.btn.btn-primary {
+  background-color: #11164A;
+  border-style: none;
+}
+
+button.btn.btn-primary {
+  background-color: #11164A;
+  border-style: none;
+}
+
+.bg-primary {
+  background-color: #11164A!important;
+}
+
 /* ----------- Tablets larger than 768px wide ----------- */
 @media (min-width: 768px) {
   header {
