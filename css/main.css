@@ -132,40 +132,15 @@ header .hero-area h3 {
 
 /* ABOUT ME STYLES */
 .about {
-  padding: 15px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-header {
+  padding-bottom: 3%;
 }
 
-.about-title {
-  font-size: 2.5em;
-  margin-left: -30%;
-}
-
-.about-title span {
-  margin-left: 95%;
-}
-
-.about-description {
-  padding-left: 10px;
-}
-
-.about hr {
-  width: 100%;
-  background-color: #11164A;
-  border: 6px solid #11164A;
-  border-radius: 4px;;
-}
-
-.skills ul li {
-  list-style-type: none;
-}
-
-.skills h4 {
-  border-bottom: 2px solid #11164A;
+.about h4 {
+  font-size: 1.5em;
 }
 
 /* PORTFOLIO REDIRECT */
@@ -248,18 +223,7 @@ footer i {
   }
 
   /* ABOUT STYLES */
-  .about-title {
-    font-size: 2.5em;
-    margin-left: -10%;
-  }
   
-  .about-title span {
-    margin-left: 95%;
-  } 
-
-  .about hr {
-    display: none;
-  }
 
    /* PORTFOLIO REDIRECT */
    .portfolio-redirect {
@@ -339,26 +303,7 @@ footer i {
   }
 
   /* ABOUT STYLES */
-  .about {
-    padding: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-  }
   
-  .about-description {
-    width: 33%;
-  }
-
-  .about-title {
-    font-size: 2.5em;
-    margin-left: -10%;
-  }
-  
-  .about-title span {
-    margin-left: 95%;
-  }
 
   /* PORTFOLIO REDIRECT */
   .portfolio-redirect .thumbnails a:hover {
